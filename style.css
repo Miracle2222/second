@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_page_bth {
+  height: 70px;
+  width: 200px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgb(82, 82, 82);
+  outline: none;
+  color: white;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 22px;
+}
+
+/* ===================== end of main settings ===================== */
+
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 85px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: absolute;
+  height: 30px;
+  left: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+}
+
+.logo_part {
+  position: relative;
+  top: 5px;
+  transform: rotate(-30deg);
+}
+
+.company_name {
+  position: relative;
+  top: -43px;
+  left: 28px;
+}
+
+header .main_nav {
+  position: absolute;
+  height: 30px;
+  left: 30%;
+  right: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+header .main_nav .nav_btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+header .mini_nav {
+  position: absolute;
+  height: 30px;
+  right: 3%;
+  top: 40%;
+  transform: translateY(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+header .mini_nav .mini_nav_btn {
+  width: 30px;
+  margin: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+/* ===================== end of header        ===================== */
+.introduction {
+  position: absolute;
+  top: 85px;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  left: 0px;
+  right: 0px;
+}
+
+.introduction,
+.content {
+  position: absolute;
+  top: 48%;
+  transform: translateY(-50%);
+  position: relative;
+  left: 10%;
+}
+
+.introduction .content p {
+  font-size: 20px;
+  width: 350px;
+}
+
+.introduction .image_block {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+
+.introduction .image_block .introduction_watch {
+  position: relative;
+  left: 350px;
+  z-index: -1;
+}
+
+.introduction .image_block .introduction_decorator {
+  position: relative;
+  right: 350px;
+  z-index: -2;
+  top: -30px;
+}
+
+.introduction .image_block .cost {
+  position: absolute;
+  top: 80px;
+  left: 300px;
+  font-size: 30px;
+}
+
+.introduction .image_block .diametr {
+  position: absolute;
+  bottom: 80px;
+  right: 50px;
+  font-size: 30px;
+}
+
+/* ===================== end of introduction  ===================== */
+
+.popular {
+  position: absolute;
+  top: 865px;
+  height: 800px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.popular h3 {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popular .models_list {
+  position: absolute;
+  top: 160px;
+  left: 0px;
+  right: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.popular .models_list .model {
+  width: 1fr;
+  margin: 100px;
+  margin-top: 0;
+}
+
+.popular .models_list .model h5 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+/* ===================== end of popular       ===================== */
+
+.quality {
+  position: absolute;
+  top: 1685px;
+  height: 600px;
+  right: 0;
+  left: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.quality .picture_switcer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.quality .picture_switcer .quality_decorator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.quality .picture_switcer .quality_watch {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+.quality .content {
+  position: absolute;
+  right: 400px;
+  top: 150px;
+  left: 100px;
+  width: 500px;
+}
+
+.quality .content .quality_btn {
+  background-color: rgb(255, 202, 177);
+}
+
+.quality .content .big_decorator {
+  position: absolute;
+  right: -400px;
+  bottom: -90px;
+}
+
+.quality .content .little_decorator {
+  position: absolute;
+  right: -400px;
+  top: -150px;
+}
+
+/* ===================== end of quality        ===================== */
+
+.contacts {
+  position: absolute;
+  top: 2285px;
+  height: 550px;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.contacts .contacts_text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+}
+
+.contacts .contacts_links_images {
+  position: absolute;
+  position: absolute;
+  bottom: 50px;
+}
+
+.contacts .contacts_links_images a {
+  margin-right: 15px;
+}
+
+.contacts .contacts_images {
+  position: absolute;
+  right: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contacts .contacts_images img {
+  margin: 3px;
+}
+
+.contacts .contacts_images .top_left {
+  position: relative;
+  top: -232px;
+  right: -252px;
+}
+
+/* ===================== end of contacts       ===================== */
+
+footer {
+  position: absolute;
+  top: 2900px;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+footer .footer_contacts ul {
+  position: relative;
+  top: -35px;
+}
+
+footer .footer_block {
+  width: 300px;
+  margin-right: 100px;
+}
+
+footer .footer_block li  {
+  position: relative;
+  left: -40px;
+  list-style: none;
+}
+
+footer .footer_block li a {
+  color: rgb(209, 209, 209);
+  outline: none;
+  text-decoration: none;
+}
+
+footer .footer_contacts .logo_part {
+  color: white;
+}
